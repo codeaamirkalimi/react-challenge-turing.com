@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 
+import "./SearchBox.style.css";
 class SearchBoxComponent extends Component {
     render() {
         const {onSearchHandler, placeholder}= this.props;
